@@ -5,10 +5,10 @@
  * *_strcat - function that concetanates a string to another
  * @dest: our destination string
  * @src: our source string
- * Return: Always 0.
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
 	strcat(dest, src);
-	return (0);
+	return (dest);
 }
